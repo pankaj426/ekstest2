@@ -14,7 +14,7 @@ phases:
       - echo 'Check kubectl version'
       - kubectl version --short --client
       - chmod +x prereqs.sh
-      - sh eks_cicd/prereqs.sh
+      - sh prereqs.sh
 
   pre_build:
     commands:
